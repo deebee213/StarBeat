@@ -45,32 +45,32 @@ function button3Hit(enemy,button3){
   score++
  }
  
- if(score > 5 && gameState === "levelOne"){
+ if(score > 50 && gameState === "levelOne"){
    gameState = 'countDown1'
    
    level1_music.stop();
    Countdown_Song.amp(0.6);
    Countdown_Song.loop();
  }
- if(score > 10 && gameState === "levelTwo"){
+ if(score > 130 && gameState === "levelTwo"){
    gameState = 'countDown2'
    level2_music.stop();
    Countdown_Song.amp(0.6);
    Countdown_Song.loop();
  }
-  if(score > 15 && gameState === "levelThree"){
+  if(score > 150 && gameState === "levelThree"){
    gameState = 'countDown3'
    level3_music.stop();
    Countdown_Song.amp(0.6);
    Countdown_Song.loop();
   }
- if(score > 20 && gameState === "levelFour"){
+ if(score > 200 && gameState === "levelFour"){
    gameState = 'countDown4'
    level4_music.stop();
    Countdown_Song.amp(0.6);
    Countdown_Song.loop();
   }
-  if(score > 25 && gameState === "levelFive"){
+  if(score > 250 && gameState === "levelFive"){
    gameState = 'win'
     level5_music.stop();
     win_song.amp(0.9);

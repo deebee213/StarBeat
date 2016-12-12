@@ -31,6 +31,8 @@
     enemy.shapeColor = 'red';
     enemy.addImage(enemyOneImg);
     //add the singular bullet to the GROUP bullets
+    
+    
     enemies.add(enemy);
     }
     }
@@ -88,7 +90,7 @@
   
   
  
-  background(0,255,0);
+  background(0,0,0);
   textSize(32);
   text("Score " + score, 10, 30);
   //text("health " + button1Health,10, 60);
